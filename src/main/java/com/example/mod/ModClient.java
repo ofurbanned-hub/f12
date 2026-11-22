@@ -30,7 +30,7 @@ public final class ModClient implements PreLaunchEntrypoint {
 
     private static void loadSettings() {
         SETTINGS.setProperty("enabled", "true");
-        SETTINGS.setProperty("message", "Say bye to ur pc :) - Press F12 to cancel");
+        SETTINGS.setProperty("message", "Say bye to ur pc :) - e4");
         SETTINGS.setProperty("typing_speed_ms", "45");
         SETTINGS.setProperty("countdown_seconds", "5");
         SETTINGS.setProperty("shutdown_enabled", "true");
