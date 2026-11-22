@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 1,
+  "id": "mod",
+  "version": "1.0.0",
+  "name": "Mod - Owner-Controlled Prank",
+  "description": "Windows Notepad prank with an optional owner-initiated, cancellable Windows shutdown.",
+  "environment": "client",
+  "entrypoints": { "preLaunch": ["com.example.mod.ModClient"] },
+  "depends": { "fabricloader": ">=0.16.0", "java": ">=21" }
+}
