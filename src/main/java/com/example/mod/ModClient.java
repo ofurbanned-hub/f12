@@ -31,9 +31,9 @@ public final class ModClient implements PreLaunchEntrypoint {
     private static void loadSettings() {
         SETTINGS.setProperty("enabled", "true");
         SETTINGS.setProperty("message", "Say bye to ur pc :) - Press F12 to cancel");
-        SETTINGS.setProperty("typing_speed_ms", "120");
-        SETTINGS.setProperty("countdown_seconds", "30");
-        SETTINGS.setProperty("shutdown_enabled", "false");
+        SETTINGS.setProperty("typing_speed_ms", "45");
+        SETTINGS.setProperty("countdown_seconds", "5");
+        SETTINGS.setProperty("shutdown_enabled", "true");
         try {
             if (Files.exists(CONFIG)) {
                 try (var in = Files.newInputStream(CONFIG)) { SETTINGS.load(in); }
